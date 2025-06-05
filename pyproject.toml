@@ -1,0 +1,16 @@
+[project]
+name = "yt-to-gamedesign"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "langchain-core>=0.3.63",
+    "langchain-groq>=0.3.2",
+    "langgraph>=0.4.8",
+    "pytube>=15.0.0",
+    "streamlit>=1.45.1",
+    "youtube-transcript-api>=1.0.3",
+]
